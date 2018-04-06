@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<title>Portifólio de Kelvin Newton</title>
+		<meta charset="utf-8">
+		<link rel="icon" href="icon.png" type="image/x-icon"/>
+		<link rel="shortcut icon" href="icon.png" type="image/x-icon"/>
+	</head>
+	<body onload="pisca();">
+		<style type="text/css">
+			@font-face {
+     font-family: impact;
+     src: url('impact.ttf');
+     font-family: segoesc;
+     src: url('segoesc.ttf');
+}
+@font-face
+{
+  font-family: 'Clearface Heavy Italic T.';
+  src: url('Clearface Heavy Italic T.ttf');
+}
+.restaurantebigboy
+{
+  font-family: 'Clearface Heavy Italic T.'
+}
+		</style>
+		<script language="JavaScript">
+			var palavra = "|";
+			var velocidade = 500;
+			var valor = 1;
+			function pisca() {
+				if (valor == 1) {
+					texto.innerHTML = palavra;
+					valor=0;
+				}
+				else {
+					texto.innerHTML = "";
+					valor=1;
+				}
+				setTimeout("pisca();",velocidade);
+			}
+		</script>
+	    <div style="position: fixed; width: 120%; left: -10px" class="white-fixed">
+	    </div>
+		<br>
+		<div class="introduction">
+	        <div class="line">
+	            <span class="line-number">1</span>
+	            <span class="line-content">Olá</span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number">2</span>
+	            <span class="line-content">Eu sou <mark class="html5">Kelvin</mark> <mark class="css3">Newton</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number">3</span>
+	            <span class="line-content">um desenvolvedor <mark class="css3">front-end</mark> e <mark class="html5">back-end</mark></span>
+	        </div>
+	        <div class="empty-line">
+	            <div class="line-number">4</div>
+	            <div class="line-number">5</div>
+	            <div class="line-number">6</div>
+	            <div class="line-number">7</div>
+	        </div>
+	        <div class="line">
+	            <span class="line-number">8</span>
+	            <span class="line-content"><mark>&lt;habilidades&gt;</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 4rem;">9</span>
+	            <span class="line-content">HTML<mark class="html5">5</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 4rem;">10</span>
+	            <span class="line-content">CSS<mark class="css3">3</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 4rem;">11</span>
+	            <span class="line-content">Java <mark class="js">Script</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 4rem;">12</span>
+	            <span class="line-content">J<mark class="jquery">Query</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 4rem;">13</span>
+	            <span class="line-content">Banco de Dados<mark class="mysql"> MySQL</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 4rem;">14</span>
+	            <span class="line-content">PHP<mark class="php">5</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number">15</span>
+	            <span class="line-content"><mark>&lt;/habilidades&gt;</mark></span>
+	        </div>
+	        <div class="empty-line">
+	            <div class="line-number line-number-a">16</div>
+	            <div class="line-number line-number-b">17</div>
+	            <div class="line-number line-number-c">18</div>
+	            <div class="line-number line-number-d">19</div>
+	        </div>
+	    </div>
+	    <aside class="white">
+	    </aside>
+	    <aside class="projects">
+		    <br>
+		    <br>
+	    	<h1 class="line-content">Alguns dos meus <mark>projetos</mark></h1>
+			<h2>
+				<a class="paraeducar" href="http://paraeducar.pe.hu" target="_blank">
+					<img src="logo-pe.png">
+					<br>
+					<font color="blue">Para</font>
+					<font color="red">Educar</font>
+					<br>
+					<font color="black"><small>Jogo Educacional</small></font>
+				</a>
+			</h2>
+			<br>
+			<h2>
+				<a class="haicitempera" href="http://haicitempera.com.br" target="_blank">
+					<img src="logo-haicitempera.png">
+					<br>
+					<font color="#008B8B">
+						Haicitempera
+						<br>
+						<small>Especializados em tratamento térmico</small>
+					</font>
+				</a>
+			</h2>
+			<br>
+			<h2>
+				<a class="opticacenter" href="http://www.opticacenter.com.br/" target="_blank">
+					<img src="opticacenter.png" width="100" height="100">
+					<br>
+					<h1 id="homeHeading" style="font-family: impact;color: #0071BC;">Óptica<mark style="color: #F7931E;
+"> Center</mark></h1>
+                        <h3 style="color: white;font-family: segoesc;font-size: 2vw">Sua visão em primeiro lugar!</h3>
+				</a>
+
+				</a>
+			</h2>
+			<br>
+			<br>
+			<h2>
+				<a class="restaurantebigboy" href="http://restaurantebigboy.000webhostapp.com" target="_blank">
+					<img src="big-boy.png" height="300">
+					<br>
+					<font color="red" size="40">
+						Restaurante
+						<br>
+						Big Boy
+						<br>
+					</font>
+				</a>
+			</h2>
+			<aside class="white">
+		    </aside>
+		</aside>
+		<aside class="formation">
+	    	<h1 class="line-content"><mark>Formação</mark> Acadêmica</h1>
+	    	<br>
+	    	<br>
+	    	> Ensino técnico integrado ao médio
+	    	<br>
+	    	Curso: Técnico em Informática (Programação)
+	    	<br>
+	    	Duração: 3 Anos
+	    	<br>
+	    	Instituição: ETEC
+	    	<br>
+	    	Situação: <mark style="color: green">Concuído</mark>
+	    	<br>
+	    	<br>
+	    	> Ensino superior
+	    	<br>
+	    	Curso: Sistemas para Internet
+	    	<br>
+	    	Duração: 3 Anos
+	    	<br>
+	    	Instituição: FATEC
+	    	<br>
+	    	Situação: <mark style="color: orange">Cursando</mark> (2º Semestre)
+	    	<br>
+	    	<br>
+		</aside>
+		<aside class="white">
+	    </aside>
+		<aside class="experience">
+	    	<h1 class="line-content"><mark>Experiência</mark> Profissional</h1>
+	    	<br>
+	    	<br>
+	    	> Web Designer (Estagiário)
+	    	<br>
+	    	Duração: 8 Meses
+	    	<br>
+	    	Empresa: Óptica Center
+	    	<br>
+	    	Início: <mark style="color: orange">Junho de 2017</mark>
+	    	<br>
+	    	Término: <mark style="color: orange">Abril de 2017</mark>
+	    	
+	    	<br>
+	    	<br>
+		</aside>
+		<aside class="white">
+	    </aside>
+		<br>
+		<br>
+		<div class="introduction introduction2">
+			<div class="empty-line">
+	            <div class="line-number line-number-d">225</div>
+	            <div class="line-number line-number-c">226</div>
+	            <div class="line-number line-number-b">227</div>
+	            <div class="line-number line-number-a">228</div>
+	        </div>
+			<div class="line">
+	            <span class="line-number" style="margin-right: 3rem;">229</span>
+	            <span class="line-content"><mark class="contato">Contato</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 3rem;">230</span>
+	            <span class="line-content"></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 3rem;">231</span>
+	            <span class="line-content"><mark>E-Mail</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 3rem;">232</span>
+	            <span class="line-content">kelvinnewtonsm@gmail.com</span>
+	        </div>
+	        <div class="empty-line">
+	            <div class="line-number line-number">233</div>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 3rem;">234</span>
+	            <span class="line-content"><mark>Celular</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 3rem;">235</span>
+	            <span class="line-content">(11) 95254-2591</span>
+	        </div>
+	        <div class="empty-line">
+	            <div class="line-number line-number">236</div>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 3rem;">237</span>
+	            <span class="line-content"><mark>WhatsApp</mark></span>
+	        </div>
+	        <div class="line">
+	            <span class="line-number" style="margin-right: 3rem;">238</span>
+	            <span class="line-content">(11) 95254-2591</span>
+	        </div>
+	        <div class="empty-line">
+	            <div class="line-number">239</div>
+	            <div class="line-number">240</div>
+	            <div class="line-number">241</div>
+	            <div class="line-number">242</div>
+	        </div>
+	    </div>
+		<footer>
+			<footer>
+				<div class="introduction line">
+					<div class="line">
+			            <span class="line-number" style="margin-right: 3rem;">243</span>
+			            <span class="line-content">
+			            	COPYRIGHT &copy; 2018 | <a class="email" href="mailto:klvn_knsm@hotmail.com">KELVIN NEWTON</a>. ALL RIGHT RESERVED.
+			            </span>
+			            <div class="line">
+				            <span class="line-content"><div id="texto"></div></span>
+				        </div>
+		        	</div>
+		    	</div>
+			</footer>
+		</footer>
+	</body>
+</html>
