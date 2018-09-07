@@ -1,40 +1,40 @@
 .introduction {
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.7px;
+  font-size: 18px !important;
+  line-height: 1.67 !important;
+  letter-spacing: 0.7px !important;
 }
 
 .line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
 }
 
 .line-number {
-  width: 14px;
-  margin-right: 1.5rem;
-  opacity: 0.33;
+  width: 14px !important;
+  margin-right: 1.5rem !important;
+  opacity: 0.33 !important;
 }
 
 .line-content,
 .line-content mark {
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 4px;
-  opacity: 85%;
+  font-size: 18px !important;
+  line-height: 30px !important;
+  letter-spacing: 4px !important;
+  opacity: 85% !important;
 }
 .line-content mark {
-  letter-spacing: 6px;
+  letter-spacing: 6px !important;
 }
 
 .empty-line {
@@ -42,40 +42,40 @@
   background: linear-gradient(to bottom, #252423, #252525);*/
 }
 .empty-line .line-number {
-  display: block;
+  display: block !important;
 }
 .empty-line .line-number-a {
-  opacity: 0.15;
+  opacity: 0.15 !important;
 }
 .empty-line .line-number-b {
-  opacity: 0.1;
+  opacity: 0.1 !important;
 }
 .empty-line .line-number-c {
-  opacity: 0.05;
+  opacity: 0.05 !important;
 }
 .empty-line .line-number-d {
-  opacity: 0.04;
+  opacity: 0.04 !important;
 }
 mark {
   background: transparent;
-  color: rgba(252, 41, 74, 0.99);
+  color: rgba(252, 41, 74, 0.99) !important;
 }
 
 
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500");
 body {
-    text-align: center;
-    overflow-x: hidden;
-    background-color: #252423;
-    color: white;
-    font-family: 'Source Code Pro', monospace;
+    text-align: center !important;
+    overflow-x: hidden !important;
+    background-color: #252423 !important;
+    color: white !important;
+    font-family: 'Source Code Pro', monospace !important;
 }
 html {
-    height: 100%
+    height: 100% !important;
 }
 a
 {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 @font-face
 {
@@ -90,29 +90,29 @@ a
 
 .paraeducar
 {
-	font-family: Supercellmagic;
+	font-family: Supercellmagic !important;
 }
 .haicitempera
 {
-	font-family: rexlia;
+	font-family: rexlia !important;
 }
 .right
 {
-	z-index: 2;
+	z-index: 2 !important;
 }
 small
 {
-	font-size: 0.6em;
+	font-size: 0.6em !important;
 }
 .paraeducar>img
 {
-	width: 100px;
-	height: 100px;
+	width: 100px !important;
+	height: 100px !important;
 }
 .haicitempera>img
 {
-	width: 220px;
-	height: 100px;
+	width: 220px !important;
+	height: 100px !important;
 }
 @font-face
 {
@@ -121,40 +121,40 @@ small
 }
 .conteudo
 {
-	font-family: felixtitling;
-	font-weight: bolder;
-	text-transform: uppercase;
+	font-family: felixtitling !important;
+	font-weight: bolder !important;
+	text-transform: uppercase !important;
 }
 .left>img
 {
-	width: 400px;
-	height: 400px;
-	border-radius: 400px;
+	width: 400px !important;
+	height: 400px !important;
+	border-radius: 400px !important;
 }
 aside
 {
-  font-size: 1.5em;
-  margin-left: -10px;
-  margin-right: -10px;
+  font-size: 1.5em !important;
+  margin-left: -10px !important;
+  margin-right: -10px !important;
 }
 .contact
 {
-  background-color: white;
-  color: #252423;
+  background-color: white !important;
+  color: #252423 !important;
 }
 .skills>div>img
 {
-  width: 200px;
-  height: 200px;
-  padding-left: 25px;
+  width: 200px !important !important;
+  height: 200px !important;
+  padding-left: 25px !important;
 }
 .projects
 {
-  background-color: #353535;
+  background-color: #353535 !important;
 }
 .skills>div
 {
-  width: 33.33%;
+  width: 33.33% !important;
 }
 /*.html
 {
@@ -181,154 +181,158 @@ aside
 }*/
 .contact
 {
-  letter-spacing: 8px
+  letter-spacing: 8px !important;
 }
 .contact>img
 {
-  border-radius: 200px;
-  width: 150px;
-  height: 150px;
+  border-radius: 200px !important;
+  width: 150px !important;
+  height: 150px !important;
 }
 .email
 {
-  color: orange;
+  color: orange !important;
 }
 .contato
 {
-  color: green;
+  color: green !important;
 }
 .cel
 {
- color: orange;
+ color: orange !important;
 }
 .wpp
 {
- color: green
+ color: green !important;
 }
 .skills
 {
-  background-color: #252525
+  background-color: #252525 !important;
 }
 .formation, .experience
 {
-  text-align: left;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.7px;
-  margin-left: 5%;a
+  text-align: left !important;
+  font-size: 18px !important;
+  line-height: 1.67 !important;
+  letter-spacing: 0.7px !important;
+  margin-left: 5% !important;
 }
 .white
 {
-  background-color: white;
-  height: 15px;
+  background-color: white !important;
+  height: 15px !important;
 }
 .white-fixed {
   margin-top: -10px;
-  -webkit-animation: pulsate 5s linear infinite;
-  -moz-animation: pulsate 5s linear infinite;
-  animation: pulsate 5s linear infinite;
+  -webkit-animation: pulsate 5s linear infinite !important;
+  -moz-animation: pulsate 5s linear infinite !important;
+  animation: pulsate 5s linear infinite !important;
 }
 
 .white-fixed {
-  color: rgba(255, 255, 255, 0.2);
-  font-size: 40px;
-  height: 10px;
+  color: rgba(255, 255, 255, 0.2) !important;
+  font-size: 40px !important;
+  height: 10px !important;
 }
 
 @-webkit-keyframes pulsate {
   0% {
-    background: black;
+    background: black !important;
   }
   20% {
-    background: red;
+    background: red !important;
   }
   40% {
-    background: yellow;
+    background: yellow !important;
   }
   60% {
-    background: green;
+    background: green !important;
   }
   80% {
-    background: blue;
+    background: blue !important;
   }
   100% {
-    background: black;
+    background: black !important;
   }
 }
 @-moz-keyframes pulsate {
   0% {
-    background: black;
+    background: black !important;
   }
   20% {
-    background: red;
+    background: red !important;
   }
   40% {
-    background: blue;
+    background: blue !important;
   }
   60% {
-    background: orange;
+    background: orange !important;
   }
   80% {
-    background: green;
+    background: green !important;
   }
   100% {
-    background: black;
+    background: black !important;
   }
 }
 @keyframes pulsate {
   0% {
-    background: black;
+    background: black !important;
   }
   20% {
-    background: red;
+    background: red !important;
   }
   40% {
-    background: blue;
+    background: blue !important;
   }
   60% {
-    background: orange;
+    background: orange !important;
   }
   80% {
-    background: green;
+    background: green !important;
   }
   100% {
-    background: black;
+    background: black !important;
   }
 }
 //fim
 .mlrem
 {
-  margin-right: 4rem;
+  margin-right: 4rem !important;
 }
 .html5
 {
- color: #E44D25;
+ color: #E44D25 !important;
 }
 .css3
 {
- color: #1B84B7;
+ color: #1B84B7 !important;
 }
 .js
 {
- color: #D5BA32
+ color: #D5BA32 !important
 }
 .jquery
 {
-  color: #C94340;
+  color: #C94340 !important;
 }
 .php
 {
-  color: #85C320;
+  color: #85C320 !important;
 }
 .mysql
 {
-  color: #F96D11;
+  color: #F96D11 !important;
 }
 .code
 {
-  color: purple;
+  color: purple !important;
 }
 .space
 {
-  margin-right: 4rem;
+  margin-right: 4rem !important;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
